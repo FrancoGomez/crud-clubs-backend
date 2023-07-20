@@ -10,10 +10,10 @@ const destroy = async (tla) => {
 
     if (clubIndex === -1) return null;
 
-    const newDatabase = clubsDatabase.splice(clubIndex, 1);
-    fs.writeFileSync(clubDatabasePath, JSON.stringify(newDatabase));
+    clubsDatabase.splice(clubIndex, 1);
+    fs.writeFileSync(clubDatabasePath, JSON.stringify(clubsDatabase));
 
-    return newDatabase;
+    return clubsDatabase;
   } catch (error) {
     return error;
   }
