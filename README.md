@@ -11,6 +11,8 @@ The idea behind it was to make a full web app, with a [frontend](https://github.
 
 With every football club avaible, using the [Football Data](https://www.football-data.org/) format in the database.
 
+Test the [deployed version](https://crud-clubs-backend-production.up.railway.app/clubs/)
+
 ## Run Locally
 
 Clone the project
