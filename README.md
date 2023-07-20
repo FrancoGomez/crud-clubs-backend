@@ -48,7 +48,7 @@ And start a server with:
 #### Get all clubs
 
 ```http
-  GET /
+  GET /clubs/
 ```
 
 #### Get club
